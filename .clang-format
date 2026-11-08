@@ -1,0 +1,21 @@
+---
+Language: Cpp
+BasedOnStyle: Mozilla
+Standard: c++17
+FixNamespaceComments: true
+
+SortIncludes: CaseSensitive
+IncludeCategories:
+  - Regex: '<glad/.*>'
+    Priority: 1
+  - Regex: '"glad/.*"'
+    Priority: 1
+
+  - Regex: '<GLFW/.*>'
+    Priority: 2
+  - Regex: '"GLFW/.*"'
+    Priority: 2
+
+  - Regex: '.*'
+    Priority: 3
+...
