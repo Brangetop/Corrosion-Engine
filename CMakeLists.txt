@@ -13,8 +13,10 @@ set(SOURCES
 )
 
 add_executable(CorrosionEngine ${SOURCES}
-    src/core/shader/shader.h
-    src/core/stb_image.c)
+    src/core/log/log.hpp
+    src/core/shader/shader.hpp
+    src/core/stb_image.c
+    src/core/window/window.cpp)
 
 target_include_directories(CorrosionEngine PRIVATE 
     src

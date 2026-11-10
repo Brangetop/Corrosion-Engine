@@ -1,8 +1,7 @@
-#ifndef SHADER_H
-#define SHADER_H
+#pragma once
 
-#include "core/log/log.h"
 #include <glad/glad.h>
+#include "core/log/log.hpp"
 
 #include <format>
 #include <fstream>
@@ -111,5 +110,3 @@ private:
     }
   }
 };
-
-#endif

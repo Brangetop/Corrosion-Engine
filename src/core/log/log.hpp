@@ -1,6 +1,4 @@
-#ifndef LOG_H
-#define LOG_H
-
+#pragma once
 #include <string_view>
 
 class Log
@@ -21,5 +19,3 @@ public:
 
 static constexpr std::string_view
 SystemToString(Log::System sys);
-
-#endif
