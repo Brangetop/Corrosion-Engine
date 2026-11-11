@@ -15,8 +15,7 @@ set(SOURCES
 add_executable(CorrosionEngine ${SOURCES}
     src/core/log/log.hpp
     src/core/shader/shader.hpp
-    src/core/stb_image.c
-    src/core/window/window.cpp)
+    src/core/stb_image.c)
 
 target_include_directories(CorrosionEngine PRIVATE 
     src
